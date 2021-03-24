@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+
+}
+#header{
+    height: 70px;
+    background-color: rgb(7, 109, 100);
+    color: white;
+    padding: 20px 30px;
+    
+
+}
+#navber{
+    background-color: teal;
+}
+#navber ul{
+    margin: 0;
+    padding: 0;
+}
+#navber ul li{
+    display: inline-block;
+
+}
+#navber ul li a{
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: 1px solid none;
+    color: white;
+}
+#navber ul li a:hover{
+    background-color: rgb(9, 49, 21);
+    color: white;
+}
+#container{
+    text-align: justify;
+    float: left;
+    width: 700px;
+    min-height: 500px;
+    box-sizing: border-box;
+    
+    padding-left: 30px;
+
+}
+#container p{
+    text-indent: 50px;
+}
+#sidebar{
+    background-color: teal;
+    float: right;
+    min-height: 500px;
+    
+    
+}
+#sidebar ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 12px;
+}
+#footer{
+    clear: both;
+    background-color: steelblue;
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
